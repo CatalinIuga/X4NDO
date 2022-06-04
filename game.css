@@ -1,0 +1,73 @@
+.body {
+    background-color: #191A19;
+    color: D8E9A8;
+}
+
+.game_area {
+    margin-left: auto;
+    margin-top: 5%;
+    margin-right: auto;
+    width: 455px;
+    height: 455px;
+    color: #1E5128;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-left,
+.top-mid,
+.top-right,
+.mid-left,
+.mid-right,
+.bot-left,
+.bot-mid,
+.bot-right {
+    padding: 5px;
+    width: 150;
+    height: 150;
+}
+
+.top-left {
+    border-right: 5px solid #4E9F3D;
+    border-bottom: 5px solid #4E9F3D;
+}
+
+.top-mid {
+    border-bottom: 5px solid #4E9F3D;
+}
+
+.top-right {
+    border-left: 5px solid #4E9F3D;
+    border-bottom: 5px solid #4E9F3D;
+}
+
+.mid-left {
+    border-right: 5px solid #4E9F3D;
+}
+
+.mid-mid {
+    padding: 5px;
+    width: 150;
+    height: 150;
+}
+
+.mid-right {
+    border-left: 5px solid #4E9F3D;
+}
+
+.bot-left {
+    border-top: 5px solid #4E9F3D;
+    border-right: 5px solid #4E9F3D;
+}
+
+.bot-mid {
+    border-top: 5px solid #4E9F3D;
+}
+
+.bot-right {
+    border-top: 5px solid #4E9F3D;
+    border-left: 5px solid #4E9F3D;
+}
