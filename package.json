@@ -1,0 +1,26 @@
+{
+  "name": "x4ndo",
+  "version": "1.0.0",
+  "description": "tic tac toe",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatalinIuga/X4NDO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "bugs": {
+    "url": "https://github.com/CatalinIuga/X4NDO/issues"
+  },
+  "homepage": "https://github.com/CatalinIuga/X4NDO#readme"
+}
