@@ -3,5 +3,5 @@ X and O
 simple X and O (tic tac toe) for now.
 
 TODO:
-- use OOP
+- OOP for players 
 - merge server branch
