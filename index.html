@@ -9,31 +9,17 @@
 </head>
 
 <body class="body">
-    <h1 name="title"></h1>
-    <div class="game_area">
-        <div class="row">
-            <input class="top-left" id="1" type="image" onclick="draw(this)" src="img\empty.png">
-            <input class="top-mid" id="2" type="image" onclick="draw(this)" src="img\empty.png">
-            <input class="top-right" id="3" type="image" onclick="draw(this)" src="img\empty.png">
+    <div class="container">
+        <div class="center">
+            <button class="button" onclick="create_room()">Create a game</button>
         </div>
-        <div class="row">
-            <input class="mid-left" id="4" type="image" onclick="draw(this)" src="img\empty.png">
-            <input class="mid-mid" id="5" type="image" onclick="draw(this)" src="img\empty.png">
-            <input class="mid-right" id="6" type="image" onclick="draw(this)" src="img\empty.png">
-        </div>
-        <div class="row">
-            <input class="bot-left" id="7" type="image" onclick="draw(this)" src="img\empty.png">
-            <input class="bot-mid" id="8" type="image" onclick="draw(this)" src="img\empty.png">
-            <input class="bot-right" id="9" type="image" onclick="draw(this)" src="img\empty.png">
+        <br>
+        <div class="center">
+            <button class="button" style="width: 200;">Join an existing game</button>
+            <input type="text" name="join" style="width: 200;background-color: seagreen;border: 0;outline: 0ch; color: aliceblue;" onclick="join_game()">
         </div>
     </div>
-    <label id="game_status">player 1 starts</label>
-    <button onclick="reset()">reset</button>
-    <script src="/socket.io/socket.io.js"></script>
-    <script>
-        var socket = io();
-    </script>
-    <script src="game.js"></script>
+    <script src="socket.js"></script>
 </body>
 
 </html>
