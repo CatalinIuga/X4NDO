@@ -1,7 +1,2 @@
 # X4NDO
-X and O
-simple X and O (tic tac toe) for now.
-
-TODO:
-- use OOP
-- add multiplayer 
+X and O aka tic-tac-toe
