@@ -9,7 +9,7 @@
 </head>
 
 <body class="body">
-    <!-- <h1 style="margin-top:15px; text-align: center; font-size: 80px;">X4NDO</h1> -->
+    <h1 name="title"></h1>
     <div class="game_area">
         <div class="row">
             <input class="top-left" id="1" type="image" onclick="draw(this)" src="img\empty.png">
@@ -29,6 +29,10 @@
     </div>
     <label id="game_status">player 1 starts</label>
     <button onclick="reset()">reset</button>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io();
+    </script>
     <script src="game.js"></script>
 </body>
 
