@@ -2,7 +2,21 @@
     background-color: #191A19;
     color: #D8E9A8;
 }
-
+.container{
+   margin-top: 5%;
+}
+.button{
+    width: 160;
+    height: 30;
+    font-size: medium;
+    background-color:#4E9F3D;
+    color: #D8E9A8;
+}
+.center{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
 .game_area {
     margin-left: auto;
     margin-top: 5%;
