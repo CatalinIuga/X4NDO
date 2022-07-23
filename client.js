@@ -1,1 +1,1 @@
-document.getElementById('title').innerHTML = 'X4NDO';
+// Client part of the app will go here, making the room, joining all the good stuff
