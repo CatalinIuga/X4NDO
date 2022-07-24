@@ -12,15 +12,19 @@
     <h1>WELLCOME</h1>
     Log in or create an account bellow!
     <div class="login">
-        <form action="account.php">
+        <form action="account.php" method="post">
             <input type="text" name="username">
             <input type="password" name="password">
-            <input type="submit" value="log">
+            <input type="hidden" value="log">
+            <button type="submit">Login</button>
         </form>
     </div>
     <div class="signup">
         <form action="account.php">
-            <input type="submit" value="new">
+            <input type="text" name="username">
+            <input type="password" name="password">
+            <input type="hidden" value="create"">
+            <button type=" submit">Create account</button>
         </form>
     </div>
     <script src="app.js"></script>
